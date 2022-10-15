@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>UltraHStudios</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+
+<script type="text/javascript" src="Assets/scripts/manager.js"></script>
+<link rel="stylesheet" href="Assets/style/estilo.css">
+</head>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a id="ChangeLoader"onclick="LoadIndexPage()" href='#'>Inicio</a></li>
+          <li><a class='dropdown-arrow' href='#'>Products</a>
+            <ul class='sub-menus'>
+              <li><a id="ChangeLoader" onclick="LoadGamePage()" href='#'>Juegos</a></li>
+              <li><a id="ChangeLoader" onclick="LoadPluginsPage()" href='#'>Plugins</a></li>
+              <li><a id="ChangeLoader" onclick="LoadProgramsPage()" href='#'>Programas</a></li>
+            </ul>
+          </li>
+      </nav>
+      
+
+<div>
+    <h1 class="title">UltraHStudios</h1>
+    </div>
+
+    <div class="MoveSubTitle">
+      <h2 class="SubTittle">Bienvenido a la web oficial de UltraHStudios</h2>
+</div>
+
+
+<body>
+  <div class="_spinner" id="LoadSpinner">
+    <div class="_lds-ring" id="spinnerColor"><div></div><div></div><div></div><div></div></div>
+  </div>
+
+
+</body>
+</html>
